@@ -1,0 +1,85 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: black;
+    color: white;
+}
+
+/* HG Logo */
+.hg_logo {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+}
+
+.hg_logo img {
+    width: 60px;
+}
+
+.hg_logo img:hover {
+    width: 60px;
+    transform: rotate(360deg);
+    transition: 1s;
+}
+
+.hg_logo img:not(:hover) {
+    width: 60px;
+}
+
+/*well done */
+.AJAX__weldone--content {
+      display: flex;
+      flex-flow: column;
+      align-items: center;
+  }
+
+.AJAX__weldone--content h2 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 4em;
+    margin: 0;
+    padding-bottom: 0;
+}
+
+.AJAX__weldone--content p {
+    font-family: "Helvetica Neue", HelveticaNeue, sans-serif;
+}
+
+#welldone {
+    margin-top: 5vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+#welldone span {
+    color: #9c0033;
+}
+
+#welldone h2 {
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 4em;
+}
+
+button {
+    padding: 0.5em;
+    background: white;
+    border: solid 1px white;
+    border-radius: 15px;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    font-family: "Helvetica Neue", HelveticaNeue, sans-serif;
+}
+
+button:hover {
+    color: white;
+    background: #5e001f;
+    border: solid 1px #5e001f;
+    transition: 1s;
+    content: 'OH';
+}
+
+button:not(:hover) {
+    background: white;
+    border: solid 1px white;
+    -webkit-transition: background 1s ease-out, color 1s ease-out;
+}

@@ -28,7 +28,7 @@ The meat and potatoes of the AJAX Request which essentially processes the new XM
 
 >**Stage 3**: Open a Request
 
-Requests welldone.html from the website server.
+Requests welldone.html from the web server with a 'GET' request.
 ```` 
    welldone.open('GET' , './partials/welldone.html');
 

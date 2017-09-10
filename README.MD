@@ -1,8 +1,7 @@
 # AJAX Request
 >By [Haroon Ghazni](http://hghazni.com)
 (Front End Web Developer)
-
-[View Demo](http://hghazni.com/ajax/)
+>[View Demo](http://hghazni.com/ajax/)
 
 ### Simple but effective
 I've created a simple AJAX Request. It's just me playing around with AJAX and creating a fun demo showing of the bare minimal of what it can do. Needs a virtual web server (MAMP etc) to run if you're wanting to run this locally. Otherwise just click my demo link.
